@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pouteam.com.example.pouteam.SubmitForm" >
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="20px"
+        android:text="Quantité de nouveaux patients vaccinés" 
+        />
+    
+    <EditText
+    	android:id="@+id/Vacc"
+    	android:layout_width="fill_parent"
+    	android:layout_height="150px"
+    	android:inputType="number"
+    	android:layout_below="@+id/Text1" />
+    
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:layout_below="@+id/Vacc"
+        android:text="Quantité de nouveaux morts" />
+    
+    <EditText
+    	android:id="@+id/Morts"
+    	android:layout_width="fill_parent"
+    	android:layout_height="150px"
+    	android:inputType="number"
+    	android:layout_below="@+id/Text2" />
+    
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:text="Quantité de nouveaux infectés" 
+        android:layout_below="@+id/Morts"/>
+    
+    <EditText
+    	android:id="@+id/Infect"
+    	android:layout_width="fill_parent"
+    	android:layout_height="150px"
+    	android:inputType="number"
+    	android:layout_below="@+id/Text3" />
+    
+    <Button 
+        android:id="@+id/submitInfo"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_centerHorizontal="true"
+        android:text="Submit Info"
+        android:layout_below="@+id/Infect"
+            />
+</RelativeLayout>

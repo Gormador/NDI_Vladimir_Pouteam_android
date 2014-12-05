@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="pouteam.com.example.pouteam.MainMenu" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <Button 
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_centerHorizontal="true"
+            android:text="Submit Info"
+            />
+        
+        <Button 
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_centerHorizontal="true"
+            android:text="Info"
+            android:layout_below="@+id/submit"
+            />
+        
+        
+        
+        
+    </RelativeLayout>
+
+</RelativeLayout>
